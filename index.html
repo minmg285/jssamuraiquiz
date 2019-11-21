@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+    <meta name="author" content="Min-mg">
+    <meta name="Keyword" content="Javascript,JS">
+    <meta name="description" content="Testing how Fluent you are in Javascript!">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>JS Samurai Quiz</title>
+</head>
+<body>
+    <!-- Top Section-->
+    <div class="intro py-3 bg-white">
+        <div class="container">
+            <h2 class="text-warning display-3 my-4">JS Samurai Quiz</h2>
+        </div>
+    </div>
+    <!--Result Score Selection-->
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container-lead">
+            <p>You are <span class="text-warning display-4 p-3">0%</span>samurai</p>
+        </div>
+    </div>
+    <!--Quiz Section-->
+    <div class="quiz py-4 bg-warning">
+        <div class="container">
+            <h2 class="my-5 text-dark">Let's give a shot on questions...</h2>
+            <form action="" class="quiz-form text-dark">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        1.Spaces over Tab???
+                    </p>
+                    <div class="form-check my-2 text-dark-50">
+                        <input type="radio" name="q1" value="a" checked>
+                        <label class="form-check-label">Spaces</label>
+                    </div>
+                    
+                    <div class="form-check my-2 text-dark-50">
+                        <input type="radio" name="q1" value="b">
+                        <label class="form-check-label">Tab</label>
+                    </div>
+                    
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        2.Loops or Recursion?
+                    </p>
+                    <div class="form-check my-2 text-dark-50">
+                        <input type="radio" name="q2" value="a" checked>
+                        <label class="form-check-label">Loops</label>
+                    </div>
+                    
+                    <div class="form-check my-2 text-dark-50">
+                        <input type="radio" name="q2" value="b">
+                        <label class="form-check-label">Recursions</label>
+                    </div>
+                    
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        3.KISS principle or Complexity, what is the best practice ?
+                    </p>
+                    <div class="form-check my-2 text-dark-50">
+                        <input type="radio" name="q3" value="a" checked>
+                        <label class="form-check-label">KISS principle</label>
+                    </div>
+                    
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="b">
+                        <label class="form-check-label">Complexity</label>
+                    </div>
+                    
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        4.ES6 or Polyfill???
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="a" checked>
+                        <label class="form-check-label">ES6</label>
+                    </div>
+                    
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="b">
+                        <label class="form-check-label">Polyfill</label>
+                    </div>
+                    
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        5. OOP or FP???
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="a" checked>
+                        <label class="form-check-label">OOP</label>
+                    </div>
+                    
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="b">
+                        <label class="form-check-label">FP</label>
+                    </div>
+                    
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        6. Pure vs Framework ???
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="a" checked>
+                        <label class="form-check-label">Pure</label>
+                    </div>
+                    
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="b">
+                        <label class="form-check-label">Framework</label>
+                    </div>
+                    
+                </div>
+                <div class="text-center">
+                    <input type="submit" class="btn btn-light" value="submit">
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
